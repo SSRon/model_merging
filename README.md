@@ -29,8 +29,10 @@ model = whisper.load_model("large-v3", download_root="models/speech_encoder/")
 git clone https://huggingface.co/ICTNLP/Llama-3.1-8B-Omni
 ```
 3. Vocoder(wherever you want):
+``` bash
 wget https://dl.fbaipublicfiles.com/fairseq/speech_to_speech/vocoder/code_hifigan/mhubert_vp_en_es_fr_it3_400k_layer11_km1000_lj/g_00500000 -P vocoder/
 wget https://dl.fbaipublicfiles.com/fairseq/speech_to_speech/vocoder/code_hifigan/mhubert_vp_en_es_fr_it3_400k_layer11_km1000_lj/config.json -P vocoder/
+```
 
 ### Data
 Please go to (https://drive.google.com/file/d/1xBCV83E2zlOoAQ-tZSzLNuVhJEElN5x6/view?usp=sharing) and download the "data.tar.gz".
