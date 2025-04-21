@@ -2,3 +2,12 @@
 llama_omni.egg-info/
 models/
 vocoder/
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore VSCode settings
+.vscode/
+
+# Ignore egg-info metadata from setuptools
+*.egg-info/
+
