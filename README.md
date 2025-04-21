@@ -33,7 +33,7 @@ wget https://dl.fbaipublicfiles.com/fairseq/speech_to_speech/vocoder/code_hifiga
 wget https://dl.fbaipublicfiles.com/fairseq/speech_to_speech/vocoder/code_hifigan/mhubert_vp_en_es_fr_it3_400k_layer11_km1000_lj/config.json -P vocoder/
 
 ### Data
-Please go to (https://github.com/ictnlp/LLaMA-Omni) and download the "data.tar.gz".
+Please go to (https://drive.google.com/file/d/1xBCV83E2zlOoAQ-tZSzLNuVhJEElN5x6/view?usp=sharing) and download the "data.tar.gz".
 After extracting the data, please find the "hf_processed" for the "train.json", "dev.json", and "test.json" used for fine-tuning.
 The audio files are put under the "origin/covost2_de/clips" folder
 
